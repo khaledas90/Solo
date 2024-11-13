@@ -1,7 +1,7 @@
 import React from 'react';
 import beforeImage from '../assets/beforeImg.png';
 import afterImage from '../assets/afterImg.png';
-import deviceImage from '../assets/02.png';
+import deviceImage from '../assets/05.png';
 
 export default function TreatmentIndications() {
     return (
@@ -9,15 +9,16 @@ export default function TreatmentIndications() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-12 mb-10">
                 <div className="relative overflow-hidden">
                     <img
-                        src={afterImage}
-                        alt="After Treatment"
+                        src={beforeImage}
+                        alt="Before Treatment"
                         className="w-[480px] h-[300px] rounded-lg shadow-lg object-cover"
                     />
+
                 </div>
                 <div className="relative overflow-hidden">
                     <img
-                        src={beforeImage}
-                        alt="Before Treatment"
+                        src={afterImage}
+                        alt="After Treatment"
                         className="w-[480px] h-[300px] rounded-lg shadow-lg object-cover"
                     />
                 </div>
@@ -55,8 +56,8 @@ export default function TreatmentIndications() {
                     </div>
                 </div>
 
-                <div className="mt-8 lg:mt-0">
-                    <img src={deviceImage} alt="SOLO RF Device" className="w-40 md:w-64 lg:w-[490px]" />
+                <div className="mt-8 lg:mt-0 relative">
+                    <img src={deviceImage} alt="SOLO RF Device" className="w-40 md:w-64 lg:w-[500px]" />
                 </div>
             </div>
         </div>

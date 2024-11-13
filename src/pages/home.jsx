@@ -7,7 +7,6 @@ import SoloProduct from '../components/SoloProduct'
 import TreatmentIndications from '../components/TreatmentIndications'
 import RFMicroneedling from '../components/RFMicroneedling'
 import SoloRF from '../components/SoloRF'
-import TreatmentOverview from '../components/TreatmentOverview'
 
 export default function Home() {
     return (
@@ -17,7 +16,6 @@ export default function Home() {
                 <AboutSolo />
                 <SoloProduct />
                 <SoloRF />
-                {/* <TreatmentOverview /> */}
                 <TreatmentIndications />
                 <RFMicroneedling />
                 <Works />

@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
-import { FaCopy, FaWhatsapp, FaLinkedin, FaFacebook, FaTwitter, FaEnvelope, FaShareAlt, FaTiktok } from 'react-icons/fa';
+import { FaCopy, FaWhatsapp, FaLinkedin, FaFacebook, FaTwitter, FaEnvelope, FaShareAlt, FaTiktok, FaInstagram } from 'react-icons/fa';
 export default function Contact() {
     return (
         <>
@@ -21,25 +21,25 @@ export default function Contact() {
                         </p>
                     </div>
                     <div className="social py-8 flex justify-center space-x-2">
-
-                        <button className="bg-green-500 text-white p-2 rounded hover:bg-green-600">
+                        <button className="bg-[#25D366] text-white p-2 rounded hover:bg-[#1DA955]">
                             <FaWhatsapp />
                         </button>
-                        <button className="bg-blue-500 text-white p-2 rounded hover:bg-green-600">
+                        <button className="bg-[#69C9D0] text-white p-2 rounded hover:bg-[#0084f4]">
                             <FaTiktok />
                         </button>
-                        <button className="bg-blue-800 text-white p-2 rounded hover:bg-blue-900">
-                            <FaLinkedin />
-                        </button>
-                        <button className="bg-blue-600 text-white p-2 rounded hover:bg-blue-700">
+                        <a href="https://www.instagram.com/sol_oaesthetic/profilecard/?igsh=MWc3cWtvenZwMWtxYg%3D%3D" target="_blank" className="bg-[#E4405F] text-white p-2 rounded hover:bg-[#C13584]">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://www.facebook.com/share/14Zz84zPnW/?mibextid=LQQJ4d" target="_blank" className="bg-[#1877F2] text-white p-2 rounded hover:bg-[#145DBF]">
                             <FaFacebook />
-                        </button>
-                        <button className="bg-blue-400 text-white p-2 rounded hover:bg-blue-500">
+                        </a>
+                        <button className="bg-[#1DA1F2] text-white p-2 rounded hover:bg-[#0D95E8]">
                             <FaTwitter />
                         </button>
-                        <button className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">
+                        <button className="bg-[#EA4335] text-white p-2 rounded hover:bg-[#C62828]">
                             <FaEnvelope />
                         </button>
+
                     </div>
                 </div>
             </div>

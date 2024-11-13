@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import { Navigation, Autoplay } from 'swiper'; // Updated import
+import { Navigation, Autoplay } from 'swiper'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -21,7 +21,7 @@ export default function Slider() {
             <Swiper
                 modules={[Navigation, Autoplay]}
                 navigation
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 5000, disableOnInteraction: false }}
                 className="mySwiper h-full"
             >
                 {[imgOne, imgTwo, imgThree].map((img, index) => (
@@ -30,8 +30,8 @@ export default function Slider() {
                             <img src={img} alt={`Slide ${index + 1}`} className="object-cover w-full h-full" />
                             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40 text-white text-center">
                                 <div className="px-6">
-                                    <h1 className="lg:text-7xl md:text-5xl sm:text-3xl text-2xl text-[#e2b770]  mb-10 font-bold ">THE SOLO</h1>
-                                    <p className="lg:text-2xl text-xl ">
+                                    <h1 className="lg:text-7xl md:text-5xl sm:text-3xl text-2xl text-[#000000]  mb-10 font-semibold ">THE SOLO</h1>
+                                    <p className="lg:text-4xl text-xl ">
                                         Begin your ultimate experience, create the competition.
                                     </p>
                                 </div>
