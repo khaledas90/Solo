@@ -52,10 +52,10 @@ export default function Navbar() {
                         <ul className="flex flex-col lg:flex-row gap-5 lg:gap-8 mt-4 font-medium lg:mt-0 transition-all duration-500 ease-in-out lg:ml-auto">
                             {[
                                 { to: "/", label: "Home" },
-                                { to: "/About-Us", label: "About Us" },
-                                { to: "/Services", label: "Services" },
-                                { to: "/Our-Work", label: "Our Work" },
-                                { to: "/Contact-Us", label: "Contact Us" },
+                                { to: "/AboutSolo", label: "About solo" },
+                                { to: "/Indications", label: "Indications" },
+                                { to: "/Cases", label: "Cases" },
+                                { to: "/Contact", label: "Contact" },
                             ].map(({ to, label }) => (
                                 <li className="py-1" key={to}>
                                     <NavLink
