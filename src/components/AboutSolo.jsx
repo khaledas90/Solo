@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS styles
+import 'aos/dist/aos.css';
 import { FaMagic, FaUserCheck, FaBullseye, FaTv } from 'react-icons/fa';
 
 const AboutSolo = () => {
@@ -10,7 +10,7 @@ const AboutSolo = () => {
     }, []);
 
     return (
-        <section className="py-16 px-8 bg-white text-center">
+        <section id="about-solo" className="py-16 px-8 bg-white text-center">
             <h2 className="text-5xl font-bold mb-7 text-[#e2b770]" data-aos="fade-up">
                 About Solo
             </h2>

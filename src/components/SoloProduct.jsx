@@ -14,7 +14,7 @@ export default function SoloProduct() {
     }, []);
 
     return (
-        <div className="flex flex-col items-center text-white py-16 px-8 relative bg-gray-900 overflow-hidden">
+        <div id="indications" className="flex flex-col items-center text-white py-16 px-8 relative bg-gray-900 overflow-hidden">
             {/* طبقة الإضاءة */}
             <div className="absolute inset-0 bg-gradient-radial from-gray-500 to-transparent opacity-50 rounded-full"></div>
 

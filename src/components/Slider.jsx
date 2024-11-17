@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import { Navigation, Autoplay } from 'swiper'; 
+import { Navigation, Autoplay } from 'swiper';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -17,7 +17,7 @@ export default function Slider() {
     }, []);
 
     return (
-        <div className="relative h-screen overflow-hidden">
+        <div id="home" className="relative h-screen overflow-hidden">
             <Swiper
                 modules={[Navigation, Autoplay]}
                 navigation

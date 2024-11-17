@@ -16,7 +16,7 @@ export default function Works() {
     }, []);
 
     return (
-        <div className="Works py-10 px-4">
+        <div id="work" className="Works py-10 px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
                 <div className="img-work" data-aos="fade-up" data-aos-delay="100">

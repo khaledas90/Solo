@@ -5,7 +5,7 @@ import { FaCopy, FaWhatsapp, FaLinkedin, FaFacebook, FaTwitter, FaEnvelope, FaSh
 export default function Contact() {
     return (
         <>
-            <div className="Contact">
+            <div id="contact" className="Contact">
                 <div className="bg-black text-white py-16 px-4 text-center">
                     <h2 className="text-3xl font-bold mb-4">PUT YOURSELF IN TOUCH WITH US</h2>
                     <hr className="border-t border-yellow-600 w-1/4 mx-auto mb-4" />
