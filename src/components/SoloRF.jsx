@@ -1,19 +1,17 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
-
+import "aos/dist/aos.css";
 import BeautyImgOne from "../assets/BeautyImgOne.jpeg";
 import BeautyImgTwo from "../assets/BeautyImgTwo.png";
 
 const SoloRF = () => {
     useEffect(() => {
-        // Initialize AOS
-        AOS.init({ duration: 1000 }); // You can set the duration as per your preference
+        AOS.init({ duration: 1000 });
     }, []);
 
     return (
-        <div id="cases" className="grid grid-cols-1 md:grid-cols-2 bg-gray-100 gap-6 px-4 py-10">
-            {/* Left Section: Text */}
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-100 gap-6 px-4 py-10">
+
             <div
                 className="flex flex-col items-start text-gray-800"
                 data-aos="fade-up"

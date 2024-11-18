@@ -71,6 +71,7 @@ export default function Navbar() {
                         </div>
                     </div>
 
+
                     <div ref={menuRef} className={`${isOpen ? "block" : "hidden"} justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}>
                         <ul className="flex flex-col lg:flex-row gap-5 lg:gap-8 mt-4 font-medium lg:mt-0 transition-all duration-500 ease-in-out lg:ml-auto">
                             {[
@@ -83,7 +84,7 @@ export default function Navbar() {
                                 <li className="py-1" key={id}>
                                     <button
                                         onClick={() => handleScrollToSection(id)}
-                                        className="relative block text-center py-2 pr-4 pl-3 text-gray-700 border-b font-semibold border-gray-100 hover:bg-[#000C1A] lg:hover:text-[#bb975e] hover:text-[#ffffff] lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-1"
+                                        className={`relative block text-center py-2 pr-4 pl-3 text-gray-700 border-b font-semibold border-gray-100 hover:bg-[#000C1A] lg:hover:text-[#bb975e] hover:text-[#ffffff] lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-1`}
                                     >
                                         {label}
                                     </button>

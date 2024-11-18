@@ -5,7 +5,7 @@ import deviceImage from '../assets/05.png';
 
 export default function TreatmentIndications() {
     return (
-        <div className="text-gray-800 py-16 px-8">
+        <div id="indications" className="text-gray-800 py-16 px-8">
             <div className="flex flex-col md:flex-row items-center justify-center gap-12 mb-10">
                 <div className="relative overflow-hidden">
                     <img
