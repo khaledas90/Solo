@@ -52,8 +52,7 @@ export default function Navbar() {
 
     return (
         <header
-            className={`relative 
-                }`}
+            className={`relative`}
         >
             <nav className={`bg-white z-50 transition-all duration-300 ease-in-out  border-gray-200 shadow-lg pb-4 px-4 lg:px-6 py-2.5 ${isScrolled ? "fixed top-0 left-0 w-full bg-white shadow-lg" : ""}`}>
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
