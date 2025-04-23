@@ -61,8 +61,6 @@ export default function SoloProduct() {
                     </div>
                 </div>
             </div>
-
-            {/* النص في الأسفل */}
             <div className="text-center text-gray-300 my-5 text-sm md:text-[15px] lg:text-lg z-10" data-aos="fade-up">
                 <ul className="grid grid-cols-1 md:grid-cols-2  text-center lg:grid-cols-2 gap-3 space-x-4">
                     <li>TREAT MULTIPLE INDICATIONS</li>
