@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
-import { FaCopy, FaWhatsapp, FaLinkedin, FaFacebook, FaTwitter, FaEnvelope, FaShareAlt, FaTiktok, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaEnvelope, FaInstagram } from 'react-icons/fa';
 export default function Contact() {
     return (
         <>
@@ -22,21 +22,14 @@ export default function Contact() {
                         </p>
                     </div>
                     <div className="social py-8 flex justify-center space-x-2">
-                        {/* <button className="bg-[#25D366] text-white p-2 rounded hover:bg-[#1DA955]">
-                            <FaWhatsapp />
-                        </button>
-                        <button className="bg-[#69C9D0] text-white p-2 rounded hover:bg-[#0084f4]">
-                            <FaTiktok />
-                        </button> */}
-                        <a href="https://www.instagram.com/sol_oaesthetic/profilecard/?igsh=MWc3cWtvenZwMWtxYg%3D%3D" target="_blank" className="bg-[#E4405F] text-white p-2 rounded hover:bg-[#C13584]">
+
+                        <a href="https://www.instagram.com/sol_oaesthetic/profilecard/?igsh=MWc3cWtvenZwMWtxYg%3D%3D" alt="instagram" className="bg-[#E4405F] text-white p-2 rounded hover:bg-[#C13584]">
                             <FaInstagram />
                         </a>
-                        <a href="https://www.facebook.com/share/14Zz84zPnW/?mibextid=LQQJ4d" target="_blank" className="bg-[#1877F2] text-white p-2 rounded hover:bg-[#145DBF]">
+                        <a href="https://www.facebook.com/share/14Zz84zPnW/?mibextid=LQQJ4d" alt="facebook" className="bg-[#1877F2] text-white p-2 rounded hover:bg-[#145DBF]">
                             <FaFacebook />
                         </a>
-                        {/* <button className="bg-[#1DA1F2] text-white p-2 rounded hover:bg-[#0D95E8]">
-                            <FaTwitter />
-                        </button> */}
+
                         <button onClick={() => navigator.clipboard.writeText('contact@soloaesthetic.com')} className="bg-[#EA4335] text-white p-2 rounded hover:bg-[#C62828]">
                             <FaEnvelope />
                         </button>

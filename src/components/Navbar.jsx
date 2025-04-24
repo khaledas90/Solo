@@ -5,7 +5,7 @@ import Hamburger from 'hamburger-react';
 export default function Navbar() {
     const dropdownRef = useRef(null);
     const menuRef = useRef(null);
-    const [isOpenDrob, setIsOpenDrob] = useState(false);
+    const [, setIsOpenDrob] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 

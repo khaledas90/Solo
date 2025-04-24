@@ -39,7 +39,7 @@ export default function EndoHero() {
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >
-                        <h2 className="text-7xl font-bold tracking-widest mb-6">SOLOENDO</h2>
+                        <h2 className="md:text-7xl text-3xl font-bold tracking-widest mb-6">SOLOENDO</h2>
                         <div className="flex flex-col items-center space-y-2 text-center">
                             <p className="text-2xl text-blue-200" data-aos="fade-up" data-aos-delay="400">
                                 Non-invasive lifting
