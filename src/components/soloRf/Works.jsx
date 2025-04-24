@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
 
-import imgOne from "../assets/work-1.jpeg";
-import imgTwo from "../assets/work-2.jpeg";
-import imgTree from "../assets/work-3.jpeg";
-import imgFour from "../assets/work-4.jpeg";
-import imgFive from "../assets/work-5.jpeg";
-import imgSix from "../assets/work-6.jpeg";
+import imgOne from "../../assets/work-1.jpeg";
+import imgTwo from "../../assets/work-2.jpeg";
+import imgTree from "../../assets/work-3.jpeg";
+import imgFour from "../../assets/work-4.jpeg";
+import imgFive from "../../assets/work-5.jpeg";
+import imgSix from "../../assets/work-6.jpeg";
 
 export default function Works() {
     useEffect(() => {

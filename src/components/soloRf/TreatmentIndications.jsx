@@ -1,7 +1,7 @@
 import React from 'react';
-import beforeImage from '../assets/beforeImg.png';
-import afterImage from '../assets/afterImg.png';
-import deviceImage from '../assets/05.png';
+import beforeImage from '../../assets/beforeImg.png';
+import afterImage from '../../assets/afterImg.png';
+import deviceImage from '../../assets/05.png';
 
 export default function TreatmentIndications() {
     return (

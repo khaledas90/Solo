@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaClock, FaUser, FaRegSmile, FaRegThumbsUp, FaTimesCircle } from 'react-icons/fa';
 import { MdMoreTime } from "react-icons/md";
-import deviceImage from '../assets/device.png';
+import deviceImage from '../../assets/device.png';
 
 export default function SoloProduct() {
     useEffect(() => {

@@ -20,7 +20,7 @@ const product = [
         title: "EndoLift",
         disc: "The best non-surgical laser assisted lifting.",
         image: soloEndoImage,
-        link: "/solo-rf",
+        link: "/solo-endo",
     },
     {
         id: 3,

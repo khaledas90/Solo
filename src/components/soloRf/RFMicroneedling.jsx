@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import ImgRFMicroneedling from "../assets/RFMicroneedling .jpeg";
-import BenefitsImg from "../assets/BenefitsImg.png";
-import IdealImg from "../assets/IdealImg.png";
+import ImgRFMicroneedling from "../../assets/RFMicroneedling .jpeg";
+import BenefitsImg from "../../assets/BenefitsImg.png";
+import IdealImg from "../../assets/IdealImg.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
